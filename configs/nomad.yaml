@@ -2,9 +2,9 @@ services:
   api_host: "localhost"
   api_base_path: "/nomad-oasis"
 
-oasis:
-  is_oasis: true
-  uses_central_user_management: true
+
+keycloak:
+  realm_name: "fairdi_nomad_test"
 
 north:
   jupyterhub_crypt_key: "978bfb2e13a8448a253c629d8dd84ff89587f30e635b753153960930cad9d36d"
