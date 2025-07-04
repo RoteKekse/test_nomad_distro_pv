@@ -30,7 +30,7 @@ repository = "https://github.com/FAIRmat-NFDI/nomad-distro-template"
 plugins = [
   "perovskite-solar-cell-database @ git+https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git@v0.1.1",
   'nomad-baseclasses @ git+https://github.com/nomad-hzb/nomad-baseclasses.git',
-  'test_pv_workshop @ git+https://github.com/rotekekse/test_pv_nomad.git',
+  'test_pv_workshop @ git+https://github.com/RoteKekse/test_pv_nomad.git',
 ]
 jupyter = ['voila',
 'ipyaggrid',
